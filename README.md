@@ -78,8 +78,8 @@ All methods accept `context.Context` as the first argument and `*RequestOptions`
 
 ## Webhook events
 
-See [instructions.md](../instructions.md) for the full list of webhook event types. Verify payloads with `leadron.VerifyWebhookSignature(payload, signature, secret)` before processing; use `leadron.ConstructEvent` to verify and parse JSON.
+See [Leadron Events](https://docs.leadron.io/events) for the full list of webhook event types. Verify payloads with `leadron.VerifyWebhookSignature(payload, signature, secret)` before processing; use `leadron.ConstructEvent` to verify and parse JSON.
 
 ## API docs
 
-Full API reference: [OpenAPI spec](../../documentation/api-docs/openapi.yaml) and [SDK-to-HTTP mapping](../api-mapping.md).
+Full API reference: [Leadron Docs](https://docs.leadron.io).
